@@ -1,5 +1,6 @@
 body {
     background-color: #FFFFFF;
+    margin: 0;
 }
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900);
 
@@ -8,16 +9,10 @@ body {
 }
 
 header {
-  background: 
-    linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ),
-  url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/cheese-curds.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(http://www.technocrazed.com/wp-content/uploads/2015/11/Cool-Black-And-White-Wallpapers-Resolution-1920x1080-Desktop-Backgrounds-19.jpg);
   background-size: cover;
   height: 100vh;
 }
-
 .title {
   position: absolute;
   top: 50%;
@@ -32,6 +27,12 @@ h1 {
   font-size: 3rem;
   white-space: nowrap;
 }
+a:visited { 
+  color: white; 
+}
+a:hover {
+  color: grey;
+}
 h2 {
   text-align: center;
   font-size: 2rem;
@@ -41,8 +42,20 @@ p {
   margin: 0;
   font-size: 1.3rem;
 }
-
-main {
-  max-width: 500px;
-  margin: 20px auto;
+section {
+  min-height: 100%;
+  padding-top: 1px;
+  background-color: white;
+}
+body, html, .main {
+    height: 100%;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  padding: 30px;
 }
