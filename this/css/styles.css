@@ -47,10 +47,10 @@ section {
   padding-top: 1px;
   background-color: white;
 }
-body, html, .main {
+body, html, .section {
     height: 100%;
 }
-img {
+#Joram-Palma {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -58,4 +58,16 @@ img {
   height: 150px;
   border-radius: 50%;
   padding: 30px;
+}
+.about-me {
+  text-align: justify;
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+
+}
+#up-arrow {
+  padding-top: 200px;
+  height: 50px;
+  width: 50px;
 }
